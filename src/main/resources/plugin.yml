@@ -1,0 +1,22 @@
+name: SMPManager
+version: '1.1.2'
+main: dev.smpmanager.SmpManagerPlugin
+api-version: '26.3'
+description: SMP Manager - one-server world freezing, shared queue and built-in Discord bot
+commands:
+  smp:
+    description: SMP Manager commands
+    usage: /smp <status|link|autopass|close|verify|confirm|unverify|list|pending|history|reset|help>
+permissions:
+  smpmanager.admin:
+    description: Manage account verification, close the world and reset faults
+    default: op
+  quorum.admin:
+    description: Compatibility with the former administrator permission
+    default: op
+  smpmanager.autopass:
+    description: Enable a one-session quorum override
+    default: op
+  quorum.autopass:
+    description: Compatibility with the former autopass permission
+    default: op

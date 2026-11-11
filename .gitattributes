@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.java text eol=lf
+*.gradle text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.properties text eol=lf
+*.json text eol=lf
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+*.jar binary
+# Migration checksums depend on the exact resource bytes.
+src/main/resources/db/*.sql -text

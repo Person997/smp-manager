@@ -1,0 +1,34 @@
+# Build and editor output
+.gradle/
+build/
+out/
+.idea/
+.vscode/
+*.iml
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local Minecraft installation and private state
+server/
+run/
+runtime/
+plugins/
+backups/
+logs/
+*.log
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+verification.key
+.env
+.env.*
+**/settings.properties
+!src/main/resources/settings.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
